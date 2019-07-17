@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container text">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" [routerLink]="['/home']">Home</a>
+    <a class="navbar-brand" [routerLink]="['/mine']">Mine Coins</a>
+    <a class="navbar-brand" [routerLink]="['/buy']">Buy Coins</a>
+    <a class="navbar-brand" [routerLink]="['/sell']">Sell Coins</a>
+    <a class="navbar-brand" [routerLink]="['/browse']">Browser Ledger</a>
+    <!-- <a class="navbar-brand" [routerLink]="['/seattle']">Seattle WA</a>
+    <a class="navbar-brand" [routerLink]="['/sanjose']">San Jose CA</a>
+    <a class="navbar-brand" [routerLink]="['/burbank']">Burbank CA</a>
+    <a class="navbar-brand" [routerLink]="['/dallas']">Dallas TX</a>
+    <a class="navbar-brand" [routerLink]="['/washington']">Washington DC</a>
+    <a class="navbar-brand" [routerLink]="['/chicago']">Chicago IL</a> -->
+  </nav>
+  <br>
+  <router-outlet></router-outlet>
+  <br>
+  <div class="container border border-dark rounded">
+  </div>
+</div>
+

@@ -1,0 +1,16 @@
+
+<h1>Buy ShintoCoins</h1>
+  <strong>Current ShintoCoin value: ${{shintoCoin}}</strong>
+  <br>
+  <strong>Number of ShintoCoins Owned: {{balance}} </strong>
+<br>
+<br>
+<div class="container border border-dark rounded">
+	<form (submit)="buyCoinPost()">
+		{{ buyCoin | json }}
+		<div class="form-row mt-4">
+			<input type="text" class="form-control col-6" name="buyCoin" [(ngModel)]="buyCoin" placeholder="Number">
+			<input type="submit" class="btn btn-dark mb-3 ml-3" value="Buy">
+		</div>
+	</form>
+</div>
